@@ -1,36 +1,38 @@
-#1) question="what do you call a bear with no teeth?"
+# question="what do you call a bear with no teeth?"
 # answer="A gummy bear!"
 # print(f"question:{question} answer:{answer}")
 
-#2) x=eval(input("enter a number1:"))
+
+# x=eval(input("enter a number1:"))
 # y=eval(input("enter a number2:"))
 # jami=x+y
 # print("total is:",jami)
 
-#3) x=eval(input("enter number1:"))
+
+# x=eval(input("enter number1:"))
 # y=eval(input("enter number2:"))
 # z=eval(input("enter number3:"))
 # print(((x+y)*z))
 
-#4) sul_nawrebi= int(input("How many pieces of pizza do you have? "))
+# sul_nawrebi= int(input("How many pieces of pizza do you have? "))
 # nawami_najrebi = int(input("How many pieces have you eaten? "))
 # darchenili_nawrebi=sul_nawrebi-nawami_najrebi
 # print("a piece of pizza left:",darchenili_nawrebi)
 
-#5) kilogrami=eval(input("Enter your weight in kilograms: "))
+# kilogrami=eval(input("Enter your weight in kilograms: "))
 # funti= kilogrami* 2204
 # print("Your weight in funt is:", funti)
 
 
 
 
-#7) ricxvi=int(input("sheiyvane ricxvebi atidan ocis chatvlit:"))
+# ricxvi=int(input("sheiyvane ricxvebi atidan ocis chatvlit:"))
 # if ricxvi>=10 and ricxvi<=20:
 #    print("thank you")
 # else:
 #     print("incorrect answer")
 
-#8) name=str(input("sheiyvane sheni saxeli:"))
+# 8) name=str(input("sheiyvane sheni saxeli:"))
 # surname=str(input("sheiyvane sheni gvari:"))
 # age=int(input("sheiyvane sheni asaki:"))
 # if age>=18:
@@ -42,7 +44,7 @@
 # else:
 #     print("nothing")
 
-#6) Num1=eval(input("sheiyvane ricxvi:"))
+# 6) Num1=eval(input("sheiyvane ricxvi:"))
 # if Num1>10:
 #     print("This is over 10")
 # elif Num1==10:
@@ -50,7 +52,7 @@
 # else:
 #     print("This is under 10") 
 
-#9) F=float(input("Sheiyvane temperatura faregeitshi:"))
+# 9) F=float(input("Sheiyvane temperatura faregeitshi:"))
 # C=(F-32)*5/9
 # wvims=input('wvims?')
 # print(C)
@@ -73,7 +75,7 @@
 #     print("You dont need umbrella")
 
 
-#10) a=int(input("sheiyvane ricxvi 1:"))
+# 10) a=int(input("sheiyvane ricxvi 1:"))
 # b=int(input("sheiyvane ricxvi 2:"))
 # c=int(input("sheiyvane ricxvi 3:"))
 # if a%2==0:
