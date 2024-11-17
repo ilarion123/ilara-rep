@@ -65,12 +65,25 @@
 
 # • დაბეჭდეთ 2-დან 1000-მდე ყველა მარტივი რიცხვი. 
 
-
+# for num in range(2,1001):
+#      is_prime=True
+#      i=2
+#      while i <num/2:
+#          if num%i==0 :
+#              is_prime=False
+#          i+=1    
+#      if is_prime:
+#          print(num, end=" ")
 
 
 # • შეიყვანეთ ნებისმიერი რიცხვი. იპოვეთ ამ რიცხვის ციფრთა ჯამი და
 # დაბეჭდეთ.
-
+ # num=int(input("enter a number:"))
+# cifrta_jami=0
+# while num>0:
+#     cifrta_jami=num%10 + cifrta_jami
+#     num=num//10
+# print(cifrta_jami)
 
 # • დაწერეთ პროგრამა რომელიც ეკრანზე გამოიტანს შემდეგ
 # გამოსახულებებს. 
@@ -83,5 +96,16 @@
 # for i in range(4,1,-1):
 #     for _ in range(i):
 #         print("*", end="  ")
+#     print()
+
+
+# rows, colmn =  7,7
+# for i in range(rows):
+#     for j in range(colmn):
+#         if i == 0 or rows-1 or j == 0 or j == colmn -1 or (i==rows//2):
+#             print("*", end=" ")
+
+#         else:
+#             print(" " , end=" ")
 #     print()
 
