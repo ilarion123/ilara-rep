@@ -74,20 +74,32 @@
 #          i+=1    
 #      if is_prime:
 #          print(num, end=" ")
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 
 
 # • შეიყვანეთ ნებისმიერი რიცხვი. იპოვეთ ამ რიცხვის ციფრთა ჯამი და
 # დაბეჭდეთ.
+<<<<<<< HEAD
 
 # num=int(input("enter a number:"))
+=======
+ # num=int(input("enter a number:"))
+>>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 # cifrta_jami=0
 # while num>0:
 #     cifrta_jami=num%10 + cifrta_jami
 #     num=num//10
 # print(cifrta_jami)
+<<<<<<< HEAD
 # # • დაწერეთ პროგრამა რომელიც ეკრანზე გამოიტანს შემდეგ
+=======
+
+# • დაწერეთ პროგრამა რომელიც ეკრანზე გამოიტანს შემდეგ
+>>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 # გამოსახულებებს. 
 
 # for i in range(1,6):
@@ -100,6 +112,7 @@
 #         print("*", end="  ")
 #     print()
 
+<<<<<<< HEAD
 # rows, colmn = 7, 7
 # for i in range(rows):
 #     for j in range(colmn):
@@ -107,5 +120,16 @@
 #             print("*", end=" ")
 #         else:
 #             print(" ", end=" ")
+=======
+
+# rows, colmn =  7,7
+# for i in range(rows):
+#     for j in range(colmn):
+#         if i == 0 or rows-1 or j == 0 or j == colmn -1 or (i==rows//2):
+#             print("*", end=" ")
+
+#         else:
+#             print(" " , end=" ")
+>>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 #     print()
 
