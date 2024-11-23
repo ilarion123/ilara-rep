@@ -2,12 +2,14 @@
 #     print(f"i aris ricxvi: {i}")
 
 
-age=int(input("sheiyvane sheni asaki:"))
-while 18<=age<75:
-    age+=1
-    print(f"shegidzlia archevnebshi monawileoba:{age}")
-    if age<18 or age>74:
-        break
+# age=int(input("enter your age:"))
+
+# while age<18 or age>75:
+#     print("shen ar shegidzlia monawileoba miigo archevnebshi")
+    
+#     age=int(input("enter your name"))
+    
+# print("shegidzlia miigo monawileoba archevnebshi")
 
 
 

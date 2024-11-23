@@ -74,7 +74,7 @@
 #          i+=1    
 #      if is_prime:
 #          print(num, end=" ")
-         
+
         
 
 
@@ -87,7 +87,6 @@
 #     cifrta_jami=num%10 + cifrta_jami
 #     num=num//10
 # print(cifrta_jami)
-
 # # • დაწერეთ პროგრამა რომელიც ეკრანზე გამოიტანს შემდეგ
 # გამოსახულებებს. 
 
@@ -101,13 +100,12 @@
 #         print("*", end="  ")
 #     print()
 
-# rows, colmn =  7,7
+# rows, colmn = 7, 7
 # for i in range(rows):
 #     for j in range(colmn):
-#         if i == 0 or rows-1 or j == 0 or j == colmn -1 or (i==rows//2):
+#         if (i == 0 or i == rows - 1 or i == rows // 2) or (j == 0 or j == colmn - 1):
 #             print("*", end=" ")
-
 #         else:
-#             print(" " , end=" ")
+#             print(" ", end=" ")
 #     print()
 
