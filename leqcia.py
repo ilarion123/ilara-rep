@@ -8,12 +8,12 @@
 #     print('current letter',a[i])
 #     i+=1
 
-age=int(input("enter your age:"))
+# age=int(input("enter your age:"))
 
-while age<18 or age>75:
-    print("shen ar shegidzlia monawileoba miigo archevnebshi")
+# while age<18 or age>75:
+#     print("shen ar shegidzlia monawileoba miigo archevnebshi")
     
-    age=int(input("enter your name"))
+#     age=int(input("enter your name"))
     
 print("shegidzlia miigo monawileoba archevnebshi")
 

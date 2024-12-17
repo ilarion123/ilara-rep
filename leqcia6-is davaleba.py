@@ -1,5 +1,4 @@
 # დაბეჭდეთ 5-ის ჯერადი რიცხვები 20-დან 125-ის ჩათვლით.
-
 # a = 20
 # while a <= 125:
 #     if a % 5 == 0:
@@ -40,7 +39,7 @@
 # დაბეჭდეთ. მაგ. 5-ის ფაქტორიალი იგივია რაც 1 ∗ 2 ∗ 3 ∗ 4 ∗ 5
 
 
-# x=9
+# x=int(input("enter a number:"))
 # faqtriali = 1
 # x+=1
 # for i in range(1,x):
@@ -66,53 +65,40 @@
 # • დაბეჭდეთ 2-დან 1000-მდე ყველა მარტივი რიცხვი. 
 
 # for num in range(2,1001):
-#      is_prime=True
+#      martivi=True
 #      i=2
 #      while i <num/2:
 #          if num%i==0 :
-#              is_prime=False
+#              martivi=False
 #          i+=1    
-#      if is_prime:
+#      if martivi:
 #          print(num, end=" ")
-<<<<<<< HEAD
-
-        
-=======
->>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 
 
 # • შეიყვანეთ ნებისმიერი რიცხვი. იპოვეთ ამ რიცხვის ციფრთა ჯამი და
 # დაბეჭდეთ.
-<<<<<<< HEAD
+
 
 # num=int(input("enter a number:"))
-=======
- # num=int(input("enter a number:"))
->>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 # cifrta_jami=0
 # while num>0:
 #     cifrta_jami=num%10 + cifrta_jami
 #     num=num//10
 # print(cifrta_jami)
-<<<<<<< HEAD
-# # • დაწერეთ პროგრამა რომელიც ეკრანზე გამოიტანს შემდეგ
-=======
 
 # • დაწერეთ პროგრამა რომელიც ეკრანზე გამოიტანს შემდეგ
->>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
-# გამოსახულებებს. 
+# გამოსახულებებს. 567
 
 # for i in range(1,6):
 #     for _ in range(i):
 #         print("*",end="  ")
 #     print()
-    
 # for i in range(4,1,-1):
 #     for _ in range(i):
 #         print("*", end="  ")
 #     print()
 
-<<<<<<< HEAD
+
 # rows, colmn = 7, 7
 # for i in range(rows):
 #     for j in range(colmn):
@@ -120,7 +106,7 @@
 #             print("*", end=" ")
 #         else:
 #             print(" ", end=" ")
-=======
+
 
 # rows, colmn =  7,7
 # for i in range(rows):
@@ -130,6 +116,5 @@
 
 #         else:
 #             print(" " , end=" ")
->>>>>>> 865e0fa1328ed24d7d38afae98a7647ef3c1aef5
 #     print()
 
