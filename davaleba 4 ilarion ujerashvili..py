@@ -20,11 +20,11 @@
 #3. შექმენი სასურველი თაფლი, რომელშიც ჩაყრი სიტყვიერ მონაცემებს და შემდეგ დაალაგებ ანბანურად და ანბანურად დალაგების შემდგომმა უკუღმა.
 
 
-arr=("vashli","msxali","atami","banani")
-sortt=sorted(arr)
-ukugma=sortt[::-1]
-print(sortt)
-print(ukugma)
+# arr=("vashli","msxali","atami","banani")
+# sortt=sorted(arr)
+# ukugma=sortt[::-1]
+# print(sortt)
+# print(ukugma)
 
 #4. გაახუთმაქ თაფლში არსებული ელემენტები, ელემენტები შენით მოიფიქრე.
 
