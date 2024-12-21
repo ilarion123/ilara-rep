@@ -15,8 +15,8 @@
     
 #     age=int(input("enter your name"))
     
-print("shegidzlia miigo monawileoba archevnebshi")
+# print("shegidzlia miigo monawileoba archevnebshi")
 
-for x in range(1,10):
-    print(x**2,end=' ')
+# for x in range(1,10):
+#     print(x**2,end=' ')
 

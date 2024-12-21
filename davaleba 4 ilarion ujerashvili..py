@@ -2,7 +2,7 @@
 # ოღონდ elena bliadze -ს ნაცვლად თქვენი სახელი და გვარი. გისურვებთ წარმატებას ! ასევე გაითვალისწინეთ მოცემული დავალება ფოლდერით უნდა ატვირთოთ გითჰაბზე და ლინკი კომენტარში დაურთოთ თქვენს მიერ ატვირთულ დავალებას.
 #გისურვებთ წარმატებას!
 
-# დაწერე (ჩაფასთე მარჯვნივ(გასწვრივ)) გითჰაბის ლინკი, სადაც ატვირთე შენი ფაილი:  
+# დაწერე (ჩაფასთე მარჯვნივ(გასწვრივ)) გითჰაბის ლინკი, სადაც ატვირთე შენი ფაილი: 
 
 #Tuples : 
 
@@ -15,7 +15,15 @@
 
 #2. დაწერე პროგრამა, რომელიც დაასორტირებს ტაპლში არსებულ ელემენტებს ინტეჯერების მიხედვით data = [('item1', '12'), ('item2', '15'), ('item3', '24')]
 
-
+# data = [('item1', '12'), ('item2', '15'), ('item3', '24')]
+# for i in range(len(data)):
+#     for j in range(i+1,len(data)):
+#         if data[j][1]<data[i][1]:
+#             temp=data[j]
+#             data[j]=data[i]
+#             data[i]=temp
+# print(data)
+        
 
 #3. შექმენი სასურველი თაფლი, რომელშიც ჩაყრი სიტყვიერ მონაცემებს და შემდეგ დაალაგებ ანბანურად და ანბანურად დალაგების შემდგომმა უკუღმა.
 
@@ -52,6 +60,8 @@
 # სხვაობა (შეასრულეთ დავალება ორი გზით: არსებული მეთოდით (ფუნქციით) და შესაბამისი
 # ოპერატორით.)
 
+#funqciit
+
 # set1={"green","blue"}
 # set2={"blue","yellow"}
 # gaertianeba=set1.union(set2)
@@ -62,6 +72,21 @@
 # print("tanakveta:",tanakveta)
 # print("sxvaoba:",sxvaoba)
 # print("simetriuli_sxvaoba:",simetriuli_sxvaoba)
+
+#operatorit
+
+# set1={"green","blue"}
+# set2={"blue","yellow"}
+# union=set1|set2
+# intersection=set1&set2
+# difference=set1-set2
+# symmetric_difference=set1^set2
+# print(union)
+# print(intersection)
+# print(difference)
+# print(symmetric_difference)
+
+
 
 
 #7. დაწერეთ პროგრამა რომელიც იპოვის სიმრავლეში მაქსიმალურ და მინიმალურ მნიშვნელობას და დაბეჭდეთ შედეგი (სიმრავლე შეარჩიეთ სურვილისამებრ).
@@ -97,6 +122,4 @@
 #     if i in y:
 #         saerto.append(i)
 # print(saerto)
-
-
 
