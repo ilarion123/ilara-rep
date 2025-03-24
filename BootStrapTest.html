@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book.css">
+    <style>
+        .carousel-container {
+            max-width: 100%;
+            max-height: 100%;
+            margin: 0 auto; 
+        }
+        #carouselExampleCaptions .carousel-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 Welcome to My Book Website</h1>
+        <nav>
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-book"></i> Books</a>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About our books
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/The_Adventures_of_Tom_Sawyer">Tom Sawyer</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn">Huckleberry Finn</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Robinson_Crusoe">Robinson Crusoe</a></li>
+                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Dracula">Dracula</a></li>
+                <li><hr class="dropdown-divider"></li>
+            </ul>
+            <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    <button class="register-button" href="">Sign In</button>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="carousel-container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="download.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>There is a big discount on books.</h5>
+                        <p>The discount applies to the following books:</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="tom sawyer.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>20 dollars instead of 40 dollars</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="hucklberry Finn.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>20 dollars instead of 45 dollars</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>📖 Book Collection</h2>
+        <table class="book-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>The Adventures of Huckleberry Finn</td>
+                    <td>Mark Twain</td>
+                    <td>Adventure</td>
+                    <td>1884</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>The Adventures of Tom Sawyer</td>
+                    <td>Mark Twain</td>
+                    <td>Adventure</td>
+                    <td>1876</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Robinson Crusoe</td>
+                    <td>Daniel Defoe</td>
+                    <td>Adventure</td>
+                    <td>1719</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Dracula</td>
+                    <td>Bram Stoker</td>
+                    <td>Romance</td>
+                    <td>1897</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="book">
+                    <h2>Book Title 1</h2>
+                    <p><strong>Author:</strong> Author Name</p>
+                    <p><strong>Genre:</strong> Fiction</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="book">
+                    <h2>Book Title 2</h2>
+                    <p><strong>Author:</strong> Another Author</p>
+                    <p><strong>Genre:</strong> Non-Fiction</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="book">
+                    <h2>Book Title 3</h2>
+                    <p><strong>Author:</strong> Someone Else</p>
+                    <p><strong>Genre:</strong> Mystery</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 My Book Website | All Rights Reserved | Phone: +995 511 155 162 | Email: <a href="mailto:ilaraujera@gmail.com">ilaraujera@gmail.com</a></p>
+    </footer>
+</body>
+</html
