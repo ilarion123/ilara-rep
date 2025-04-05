@@ -1,0 +1,10 @@
+from flask import *
+
+app = Flask(__name__,template_folder=("project"))
+
+@app.route('/')
+def home():
+    return render_template('p.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
